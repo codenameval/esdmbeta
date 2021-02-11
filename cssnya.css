@@ -1,0 +1,203 @@
+/*================================INDEX===============================*/
+html,body{
+	background-color: #e7eaeb;
+	margin: 0;
+	height: 100%;
+}
+
+#cover{
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background-color: #38b98d;
+}
+
+#logoweb{
+	margin-left: 5%;
+}
+
+#logo1{
+	margin-right: 5%;
+	margin-top: 30px;
+	float: right;
+}
+
+#logo2{
+	margin-right: 10px;
+	margin-top: 30px;
+	float: right;
+}
+
+#menubar {
+	margin-top: 200px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #34495e;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
+
+.float1 {
+    float: left;
+    margin-left: 5%; 
+}
+
+.float2 {
+    float: left;
+}
+
+.float3 {
+    float: left;
+}
+
+.float4 {
+	float: left;
+}
+
+.float5 {
+	float: right;
+}
+
+#float a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#float a:hover {
+    background-color: #111;
+}
+
+#searchbox{
+	margin-top: 11px;
+	margin-right: 25%;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#tulisanjalan{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#luar{
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 5%; 
+	width: 90%;
+	border:1px solid black;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#isi{
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+/*=============================DBPANEL=================================*/
+#dbpanel1{
+	position: absolute;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 280px;
+	width: 90%;
+	border:1px solid black;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#tabledb{
+	margin-bottom: 100px;
+	border-radius: 10px;
+	background-color: #79a2d0;
+	border-width: 2px;
+	border-collapse: collapse;
+}
+
+#tabledb th{
+	background-color: orange;
+}
+
+#tabledb tr{
+	background-color: #7ea5fe;
+}
+
+#isidb{
+	margin-left: 25px;
+}
+
+/*=============================TENTANG KAMI============================*/
+#tentangkami1{
+	position: absolute;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 275px;
+	width: 1215px;
+	height: 530px;
+}
+
+#vin{
+	position: absolute;
+	margin-left: 78px;
+	margin-top: 10px;
+	width: 300px;
+	height: 510px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	border:1px solid darkgray;
+	background-color: #38b98d;
+	border-radius: 10px;
+}
+
+#val{
+	position: absolute;
+	margin-left: 456px;
+	margin-top: 10px;
+	width: 300px;
+	height: 510px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	border:1px solid darkgray;
+	background-color: #38b98d;
+	border-radius: 10px;
+}
+
+#mat{
+	position: absolute;
+	margin-left: 834px;
+	margin-top: 10px;
+	width: 300px;
+	height: 510px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	border:1px solid darkgray;
+	background-color: #38b98d;
+	border-radius: 10px;
+}
+
+#p1 {
+	margin-left: 20px;
+}
+
+/*=============================Search Panel============================*/
+#searchquery{
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 16%; 
+	border:1px solid black;
+	background-color: #79a2d0;
+	border-radius: 10px;
+}
+
+#searchbutton{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
